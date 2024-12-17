@@ -68,30 +68,3 @@ p {
 .add-to-cart:hover {
     background-color: #cc0000;
 }
-
-.rating {
-    display: inline-block;
-    vertical-align: middle;
-    color: #ff0000;
-    margin-top: 10px;
-}
-
-.rating svg {
-    width: 16px;
-    height: 16px;
-    margin-right: 5px;
-}
-
-@media (max-width: 768px) {
-    .product-card {
-        flex-direction: column;
-    }
-
-    .product-image {
-        border-radius: 5px;
-    }
-
-    .product-info {
-        padding: 10px;
-    }
-}
